@@ -1,0 +1,7 @@
+name = jCarouselSkins
+description = Quickly add extra skins for Drupal jCarousel.
+dependencies[] = jcarousel
+package = User interface
+core = 7.x
+
+files[] = jcarouselskins.module

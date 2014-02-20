@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_jcarousel_skin_info().
+ */
+function jcarouselskins_jcarousel_skin_info() {
+  $skins = array();
+
+  $skins['jcBasic'] = array(
+    'title' => t('jcBasic'),
+    'file' => 'skins/jcBasic/jcarousel-jcBasic.css',
+  );
+  return $skins;
+}
